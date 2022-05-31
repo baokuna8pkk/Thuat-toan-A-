@@ -39,7 +39,7 @@ def aStarAlgo(start_node, stop_node):
                         if g[m] > g[n] + weight:
                             # update g(m)
                             g[m] = g[n] + weight
-                            # change parent of m to n
+                            # gan parent cua m cho n
                             parents[m] = n
                              
                             #neu m in closed , xoa va add vao open
